@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="PacketEPD">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element maxOccurs="unbounded" name="ED101">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="AccDoc">
+                <xs:complexType>
+                  <xs:attribute name="AccDocNo" type="xs:unsignedByte" use="required" />
+                  <xs:attribute name="AccDocDate" type="xs:date" use="required" />
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Payer">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type="xs:string" />
+                    <xs:element name="Bank">
+                      <xs:complexType>
+                        <xs:attribute name="BIC" type="xs:unsignedInt" use="required" />
+                        <xs:attribute name="CorrespAcc" type="xs:integer" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Payee">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type="xs:string" />
+                    <xs:element name="Bank">
+                      <xs:complexType>
+                        <xs:attribute name="BIC" type="xs:unsignedInt" use="required" />
+                        <xs:attribute name="CorrespAcc" type="xs:integer" use="required" />
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Purpose" type="xs:string" />
+            </xs:sequence>
+            <xs:attribute name="EDAuthor" type="xs:unsignedLong" use="required" />
+            <xs:attribute name="EDDate" type="xs:date" use="required" />
+            <xs:attribute name="EDNo" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="TransKind" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="Priority" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="SystemCode" type="xs:unsignedByte" use="required" />
+            <xs:attribute name="Sum" type="xs:unsignedByte" use="required" />
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="EDAuthor" type="xs:unsignedLong" use="required" />
+      <xs:attribute name="EDDate" type="xs:date" use="required" />
+      <xs:attribute name="EDNo" type="xs:unsignedInt" use="required" />
+      <xs:attribute name="EDQuantity" type="xs:unsignedShort" use="required" />
+      <xs:attribute name="SystemCode" type="xs:unsignedByte" use="required" />
+      <xs:attribute name="Sum" type="xs:unsignedShort" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

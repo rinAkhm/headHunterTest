@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="Windows-1251"?>
+<ED807 xmlns="urn:cbr-ru:ed:v2.0" EDNo="707861585" EDDate="2022-10-20" EDAuthor="4583001999" CreationReason="FCBD" CreationDateTime="2022-10-20T19:01:24Z" InfoTypeCode="FIRR" BusinessDay="2022-10-21" DirectoryVersion="1">
+    <BICDirectoryEntry BIC="041280103">
+        <ParticipantInfo NameP="��� �� ������������ �������" CntrCd="RU" Rgn="12" Ind="414056" Tnp="�" Nnp="���������" Adr="�� ��������, 6 �"
+         DateIn="2010-06-08" PtType="52" Srvcs="3" XchType="1" UID="1280002005" ParticipantStatus="PSAC"></ParticipantInfo>
+         <Accounts Account="40116810100000010010" RegulationAccountType="TRSA" CK="99" AccountCBRBIC="041280002" DateIn="2013-01-09" AccountStatus="ACAC">
+    </Accounts><Accounts Account="40116810400000010011" RegulationAccountType="TRSA" CK="99" AccountCBRBIC="041280002" DateIn="2013-01-09" AccountStatus="ACAC">
+    </Accounts><Accounts Account="40116810700000010012" RegulationAccountType="TRSA" CK="99" AccountCBRBIC="041280002" DateIn="2013-01-09" AccountStatus="ACAC">
+    </Accounts><Accounts Account="40116810000000010013" RegulationAccountType="TRSA" CK="99" AccountCBRBIC="041280002" DateIn="2013-01-09" AccountStatus="ACAC">
+    </Accounts><Accounts Account="40116810300000010014" RegulationAccountType="TRSA" CK="99" AccountCBRBIC="041280002" DateIn="2013-01-09" AccountStatus="ACAC">
+    </Accounts><Accounts Account="40116810600000010015" RegulationAccountType="TRSA" CK="99" AccountCBRBIC="041280002" DateIn="2013-01-09" AccountStatus="ACAC">
+    </Accounts>
+</BICDirectoryEntry>
+<BICDirectoryEntry BIC="">
+    <ParticipantInfo NameP="111" RegN="3423" CntrCd="RU" Rgn="45" Ind="109240" Tnp="�" Nnp="������" Adr="�� ���������, 4" DateIn="2016-05-17" PtType="90" Srvcs="1" XchType="0" UID="4525597000" ParticipantStatus="PSAC">
+    <RstrList Rstr="URRS" RstrDate="2016-05-17"/>
+</ParticipantInfo>
+
+<Accounts Account="30101810645250000597" RegulationAccountType="CRSA" CK="82" AccountCBRBIC="044525000" DateIn="2015-09-14" AccountStatus="ACAC"></Accounts>
+</BICDirectoryEntry>
+</ED807>
