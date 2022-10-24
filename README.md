@@ -15,4 +15,4 @@
 | Create test plan  | ✅ |[link](https://miro.com/app/board/uXjVPLXEI_Y=/?share_link_id=241292542833)  |
 | Test cases  | ✅ |[link](https://docs.google.com/spreadsheets/d/1lQ5JfbtfpJmSc9_OHARMJXrmAPslgWkSQqzayvjDjxY/edit?usp=sharing)  |
 |Traceability matrix|✅|[link](https://docs.google.com/spreadsheets/d/1lQ5JfbtfpJmSc9_OHARMJXrmAPslgWkSQqzayvjDjxY/edit?usp=sharing)|
-|Bug reports|new|null|
+|Bug reports|new|[✅](https://docs.google.com/spreadsheets/d/1lQ5JfbtfpJmSc9_OHARMJXrmAPslgWkSQqzayvjDjxY/edit#gid=20293875)|
